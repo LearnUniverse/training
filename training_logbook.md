@@ -9,3 +9,4 @@ jak nastavit firebase *https://console.firebase.google.com/u/1/project/edu-centr
 Pokud budete potřebovat další pomoc nebo konzultaci, jsem tu pro vás. Hodně štěstí s vaším projektem!
 
 1. Pěkná site pro trainig React *https://react.dev/learn*
+1. Skvělý návod jak uploadovat fotky https://www.youtube.com/watch?v=YOAeBSCkArA
