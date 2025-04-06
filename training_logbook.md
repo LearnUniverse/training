@@ -17,3 +17,5 @@ Pokud budete potřebovat další pomoc nebo konzultaci, jsem tu pro vás. Hodně
 
 1. jak použít cizí library https://www.youtube.com/watch?v=7MKEOfSP2s4 
    pěkné, prý best library in years .. https://ui.shadcn.com
+   nebo ... https://www.heroui.com/docs/components/card 
+   radí tu ... https://www.reddit.com/r/react/comments/1af1gbh/which_is_the_best_react_component_library/ 
