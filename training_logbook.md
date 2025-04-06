@@ -16,4 +16,4 @@ Pokud budete potřebovat další pomoc nebo konzultaci, jsem tu pro vás. Hodně
 1. Skvělý návod jak uploadovat fotky https://www.youtube.com/watch?v=YOAeBSCkArA
 
 1. jak použít cizí library https://www.youtube.com/watch?v=7MKEOfSP2s4 
-   pěkné, prý best library in years
+   pěkné, prý best library in years .. https://ui.shadcn.com
