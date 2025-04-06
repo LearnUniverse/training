@@ -14,3 +14,6 @@ Pokud budete potřebovat další pomoc nebo konzultaci, jsem tu pro vás. Hodně
 1. Pěkná site pro trainig React *https://react.dev/learn*
 3. Zajímavě a graficky vysvětlené základy REACT https://www.youtube.com/@TheCodeBootcamp
 1. Skvělý návod jak uploadovat fotky https://www.youtube.com/watch?v=YOAeBSCkArA
+
+1. jak použít cizí library https://www.youtube.com/watch?v=7MKEOfSP2s4 
+   pěkné, prý best library in years
