@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState} from 'react'; 
+import { getImageUrl } from './utils.js';
 
 function MyButton({count, onClickMe}) {
   return (
@@ -27,14 +28,48 @@ function MyList() {
   );
 }
 
-const game = [{id: "G1",name: "The ONE",sequence: ""},
-              {id: "G2",name: "The TWO",sequence: "G1"}, 
-              {id: "G3",name: "The THREE",sequence: "G2"}];
+function GameList() {
+  const gameList = game.map(item =>
+    <li key={item.id}><img src={getImageUrl(item)} alt={item.name}/>{item.name} seq on:{item.sequence}  <button className="myButton">Play</button></li>
+  );
+
+  return (
+    <div className="appContent"><ul>{gameList}</ul></div>
+  );
+}
+
+function HomePage() {
+  // user is logged in and sees the game list
+  return (
+    <GameList />
+  );
+}
+
+function AppContent() {
+  return(
+    // return based on user-logged-Status
+   <HomePage />
+  );
+}
+
+function AppHeader({headerInfo}) {
+  return (
+        <div className="appHeader"> 
+          <img src='MenuButton' alt='MB'/> 
+          <b>{headerInfo}</b> 
+          <img src='UserImgButton' alt='UiB'/>
+        </div>
+        );
+}  
+
+
+const game = [{id: "G1",name: "The G ONE",sequence: "",imageId:"MK3eW3A"},
+              {id: "G2",name: "The G TWO",sequence: "G1",imageId:"mynHUSa"}, 
+              {id: "G3",name: "The G THREE",sequence: "G2",imageId:"bE7W1ji"}];
 
 const gameStages = [{gageId:"G1",id: "S1",name:"G1: First Stage",content:"<p>G1: First Stage</p>"},
                     {gageId:"G1",id: "S2",name:"G2: Second Stage",content:"<p>G2: Second Stage</p>"}, 
                     {gageId:"G1",id: "S3",name:"G3: Third Stage",content:"<p>G3: Third Stage</p>"},];
-
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,13 +81,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        FireBAse Course
-        My first <MyButton count={count} onClickMe = {HandleButtonClick}/>  and second 
-        <MyButton count={count} onClickMe = {HandleButtonClick}/> WebToons running on Firebase
-        <MyList />
-      </header>
+        <AppHeader headerInfo={"GAME PORTAL"}/>
+        <AppContent/>
     </div>
   );
 }
