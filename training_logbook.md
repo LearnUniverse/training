@@ -9,6 +9,7 @@ jak nastavit firebase *https://console.firebase.google.com/u/1/project/edu-centr
 Pokud budete potřebovat další pomoc nebo konzultaci, jsem tu pro vás. Hodně štěstí s vaším projektem!
 
 1. Návod jak vyrábět REACT aplikaci, boží: https://react.dev/learn/thinking-in-react
+2. Jak provádět map na list co vracím https://react.dev/learn/rendering-lists
 
 1. Pěkná site pro trainig React *https://react.dev/learn*
 3. Zajímavě a graficky vysvětlené základy REACT https://www.youtube.com/@TheCodeBootcamp
